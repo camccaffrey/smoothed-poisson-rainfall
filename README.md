@@ -112,7 +112,7 @@ This penalizes large relative jumps in rainfall rates, which is appropriate for 
 
 ### Implementation
 
-Because the regularized estimator lacks a closed-form solution, I solve it numerically using convex optimization (via `cvxpy`), with supporting code written in NumPu and SciPy.
+Because the regularized estimator lacks a closed-form solution, I solve it numerically using convex optimization (via `cvxpy`), with supporting code written in NumPy and SciPy.
 
 <!--
 $$Obj(\theta_1, ..., \theta_n) = \left[ \sum^n_{i=1} (\theta_i - y_i \eta_i) + \lambda \sum^{n-1}\_{i=1} ( \eta_{i+1} - \eta_i )^2 \right]$$
