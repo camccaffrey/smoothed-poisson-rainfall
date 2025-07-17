@@ -6,7 +6,7 @@ This repository presents a case study in statistical modeling developed during m
 
 ### Overview
 
-In this project, I fit smoothed Poisson models to hourly rainfall data from two California weather stations. The models apply regularization penalties to smooth the estimates over time and improve robustness in the presence of missing data.
+In this project, I fit smoothed Poisson models to hourly rainfall data from two California weather stations. The models apply regularization penalties to smooth the estimates over time and improve stability in the presence of missing or irregular data.
 
 **Goals**:
 
